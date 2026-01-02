@@ -79,3 +79,4 @@ dataTest(batterySet, batteryNumber).folder = battFolderPath;
 save(fullfile(projectFolder,"dataTest.mat"), "dataTest", "-v7.3");
 
 disp("Done.");
+
