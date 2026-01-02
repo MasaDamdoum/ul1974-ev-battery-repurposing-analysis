@@ -75,16 +75,15 @@ ev-battery-test-data-processing/
 4. Run the Script: build_dataTest
 
 ## Outputs
-
--Figures saved automatically to _figures/
--Processed data saved as dataTest.mat
+- Figures saved automatically to `_figures/`
+- Processed data saved as `dataTest.mat`
 
 ## Design Notes
 
--Raw CSV data is intentionally excluded from this repository
--Folder naming conventions are resolved dynamically
--Helper functions isolate file handling from analysis logic
--The code is structured for future expansion (e.g., resistance estimation, SOC-based analysis)
+- Raw CSV data is intentionally excluded from this repository
+- Folder naming conventions are resolved dynamically
+- Helper functions isolate file handling from analysis logic
+- The code is structured for future expansion (e.g., resistance estimation, SOC-based analysis)
 
 ## Author
 
