@@ -82,6 +82,21 @@ ev-battery-test-data-processing/
 - Figures saved automatically to `_figures/`
 - Processed data saved as `dataTest.mat`
 
+## Example Results
+
+### UL 1974 Charge–Discharge Profiles (Repurposed Li-ion Cells)
+
+**Battery #5 — P1 and P2 appended**
+
+Current vs. Time  
+![Current vs Time](./_figures/battery05_current_vs_time.png)
+
+Voltage vs. Time  
+![Voltage vs Time](./_figures/battery05_voltage_vs_time.png)
+
+*Dashed vertical line indicates transition between P1 and P2 test segments.*
+
+
 ## Design Notes
 
 - Raw CSV data is intentionally excluded from this repository
