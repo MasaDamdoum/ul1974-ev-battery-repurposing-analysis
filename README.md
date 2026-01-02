@@ -89,7 +89,7 @@ ev-battery-test-data-processing/
 **Battery #5 — P1 and P2 appended**
 
 Current and Voltage vs. Time  
-![Current vs Time](Set1_Batt05_IV)
+![Current vs Time](Set1_Batt05_IV.png)
 
 
 
