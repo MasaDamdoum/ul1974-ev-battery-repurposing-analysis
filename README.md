@@ -1,8 +1,8 @@
 # MATLAB Pipeline for UL 1974 Evaluation of Repurposed Li-Ion Batteries
 
-This project provides a MATLAB-based data processing pipeline for analyzing charge–discharge test data of repurposed lithium-ion batteries evaluated under the **UL 1974 standard**. The workflow is designed to handle multi-stage test procedures (e.g., P1 and P2) defined in UL 1974, append fragmented datasets into continuous timelines, and generate current–voltage profiles suitable for safety, performance, and second-life assessment.
+This project provides a MATLAB-based data processing pipeline for analyzing charge–discharge test data of repurposed lithium-ion batteries evaluated under the UL 1974 standard. The workflow is designed to handle multi-stage test procedures (e.g., P1 and P2) defined in UL 1974, append fragmented datasets into continuous timelines, and generate current–voltage profiles suitable for safety, performance, and second-life assessment.
 
-The data structure and processing logic are aligned with publicly available UL 1974–based experimental datasets for repurposed **LiFePO₄ (LFP)** battery cells, enabling consistent analysis of charge/discharge behavior, rest periods, and load conditions used in repurposing qualification.
+The data structure and processing logic are aligned with publicly available UL 1974–based experimental datasets for repurposed LiFePO₄ (LFP) battery cells, enabling consistent analysis of charge/discharge behavior, rest periods, and load conditions used in repurposing qualification.
 
 ---
 
@@ -25,16 +25,18 @@ The pipeline facilitates faster interpretation of UL 1974 test data and supports
 
 ## Project Structure
 
+## Project Structure
+
+```text
 ev-battery-test-data-processing/
-│
 ├─ _codes/
-│ ├─ build_dataTest.m % Main script (run this)
-│ ├─ getPFiles.m % Helper function: locate P1/P2 CSV files
-│ └─ loadTIV.m % Helper function: load time/current/voltage
-│
-├─ _data/ % Raw battery test folders (excluded)
-├─ _figures/ % Auto-generated plots
+│  ├─ build_dataTest.m      % Main script (run this)
+│  ├─ getPFiles.m          % Helper: locate P1/P2 CSV files
+│  └─ loadTIV.m            % Helper: load time/current/voltage
+├─ _data/                  % Raw battery test folders (excluded)
+├─ _figures/               % Auto-generated plots
 └─ README.md
+
 
 ## Key Features
 
