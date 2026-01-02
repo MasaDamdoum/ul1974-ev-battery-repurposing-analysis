@@ -1,21 +1,25 @@
-# EV Battery Test Data Processing
+# MATLAB Pipeline for UL 1974 Evaluation of Repurposed Li-Ion Batteries
 
-A MATLAB-based data processing pipeline for automated loading, concatenation, and visualization of electric vehicle (EV) battery test data.
+This project provides a MATLAB-based data processing pipeline for analyzing charge–discharge test data of repurposed lithium-ion batteries evaluated under the **UL 1974 standard**. The workflow is designed to handle multi-stage test procedures (e.g., P1 and P2) defined in UL 1974, append fragmented datasets into continuous timelines, and generate current–voltage profiles suitable for safety, performance, and second-life assessment.
 
-This project processes multi-part battery cycling experiments (e.g., P1/P2 test segments), automatically appends time-series data, and generates continuous current–voltage profiles for individual battery cells. The workflow is designed for scalability across multiple battery sets and test conditions.
+The data structure and processing logic are aligned with publicly available UL 1974–based experimental datasets for repurposed **LiFePO₄ (LFP)** battery cells, enabling consistent analysis of charge/discharge behavior, rest periods, and load conditions used in repurposing qualification.
 
 ---
 
 ## Motivation
 
-Battery cycling and aging experiments often generate fragmented CSV files across multiple test stages and datasets. Manual loading and plotting is time-consuming and error-prone.
+As large numbers of electric vehicle batteries reach end-of-life, **battery repurposing** has emerged as a critical pathway to reduce environmental impact and recover residual value. Although many retired batteries retain a significant portion of their original capacity, their safe and reliable reuse requires standardized evaluation.
 
-This project addresses that problem by:
-- Automatically locating battery test folders
-- Dynamically handling inconsistent naming conventions
-- Appending multi-part test data into a single continuous timeline
-- Generating publication-ready plots
-- Saving processed results in fast-loading `.mat` structures
+**UL 1974** defines industry-recognized procedures for assessing the safety and performance of repurposed battery cells, modules, and packs, including controlled charge–discharge cycling, rest periods, and stress conditions. However, datasets generated under UL 1974 are often fragmented across multiple test stages and stored in complex folder and file naming formats, making analysis inefficient and error-prone.
+
+This project was developed to:
+- Support analysis of battery test data generated according to UL 1974 procedures  
+- Automatically handle multi-part test segments (e.g., P1 and P2)  
+- Enable consistent visualization of charge–discharge behavior for repurposed cells  
+- Provide a reusable, scalable tool for second-life battery research and engineering workflows  
+
+The pipeline facilitates faster interpretation of UL 1974 test data and supports model development, valid
+
 
 ---
 
@@ -31,9 +35,6 @@ ev-battery-test-data-processing/
 ├─ _data/ % Raw battery test folders (excluded)
 ├─ _figures/ % Auto-generated plots
 └─ README.md
-
-
----
 
 ## Key Features
 
