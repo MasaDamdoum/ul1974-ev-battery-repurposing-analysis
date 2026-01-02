@@ -8,9 +8,9 @@ The data structure and processing logic are aligned with publicly available UL 1
 
 ## Motivation
 
-As large numbers of electric vehicle batteries reach end-of-life, **battery repurposing** has emerged as a critical pathway to reduce environmental impact and recover residual value. Although many retired batteries retain a significant portion of their original capacity, their safe and reliable reuse requires standardized evaluation.
+As large numbers of electric vehicle batteries reach end-of-life, battery repurposing has emerged as a critical pathway to reduce environmental impact and recover residual value. Although many retired batteries retain a significant portion of their original capacity, their safe and reliable reuse requires standardized evaluation.
 
-**UL 1974** defines industry-recognized procedures for assessing the safety and performance of repurposed battery cells, modules, and packs, including controlled charge–discharge cycling, rest periods, and stress conditions. However, datasets generated under UL 1974 are often fragmented across multiple test stages and stored in complex folder and file naming formats, making analysis inefficient and error-prone.
+UL 1974 defines industry-recognized procedures for assessing the safety and performance of repurposed battery cells, modules, and packs, including controlled charge–discharge cycling, rest periods, and stress conditions. However, datasets generated under UL 1974 are often fragmented across multiple test stages and stored in complex folder and file naming formats, making analysis inefficient and error-prone.
 
 This project was developed to:
 - Support analysis of battery test data generated according to UL 1974 procedures  
